@@ -1,4 +1,4 @@
-# WearingNekoEars
+# Wearing Neko Ears
 
 영상에서 얼굴을 감지하여 고양이 귀를 씌우는 프로그램.
 
