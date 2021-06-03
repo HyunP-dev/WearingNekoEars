@@ -9,4 +9,4 @@
 - matplotlib
 
 ### 다이어그램
-![image](https://github.com/HyunP-dev/WearingNekoEars/blob/main/diagram.png?raw=true)
+![image](https://raw.githubusercontent.com/HyunP-dev/WearingNekoEars/6a8a53ee22813fa871f00c6c6d935b230e2aedcf/diagram.svg)
