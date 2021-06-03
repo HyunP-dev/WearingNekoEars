@@ -1,0 +1,82 @@
+<mxfile>
+    <diagram id="WZ5yl7VJxXlj4W8_hueo" name="Page-1">
+        <mxGraphModel dx="1163" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="vlquZQasonjp4h22WZBq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-1" target="vlquZQasonjp4h22WZBq-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-1" target="vlquZQasonjp4h22WZBq-29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-1" value="Image Load&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;(Photo)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-2" target="vlquZQasonjp4h22WZBq-21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-2" target="vlquZQasonjp4h22WZBq-20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-2" target="vlquZQasonjp4h22WZBq-40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-2" value="Extract Landmarks" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vlquZQasonjp4h22WZBq-4" target="vlquZQasonjp4h22WZBq-26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-4" value="Resize" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="520" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-5" target="vlquZQasonjp4h22WZBq-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-5" value="Image Load&lt;br&gt;&lt;font style=&quot;font-size: 7px&quot;&gt;(Neko Ears)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="520" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-20" target="vlquZQasonjp4h22WZBq-26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-20" value="Get Angle of Rotation" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-21" target="vlquZQasonjp4h22WZBq-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-21" value="Determine&lt;br&gt;Ears Size" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="239.5" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-26" target="vlquZQasonjp4h22WZBq-29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-26" value="Rotate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="520" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vlquZQasonjp4h22WZBq-29" target="vlquZQasonjp4h22WZBq-32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-29" value="Compose&lt;br&gt;Two Images" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-32" value="Output Image" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-40" target="vlquZQasonjp4h22WZBq-29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-40" value="Determine&lt;br&gt;Ears Location" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-46" value="&lt;h1&gt;Wear a Neko Ears&lt;/h1&gt;&lt;p&gt;Algorithm for wearing cat ears by recognizing the face in the picture.&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div style=&quot;text-align: right&quot;&gt;&lt;span&gt;Author: 20205178 Park Hyun&lt;/span&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="480" width="240" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="vlquZQasonjp4h22WZBq-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vlquZQasonjp4h22WZBq-46" target="vlquZQasonjp4h22WZBq-46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
