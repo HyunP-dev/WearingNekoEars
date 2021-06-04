@@ -47,8 +47,8 @@ def determine_ears_location(landmark, ears, rotation):
     if rot >=0:
         loc_x = p1[0]-int(ears.shape[1]*sin(radians(rotation)))
     else:
-        loc_x = p1[0]
-        
+        loc_x = p1[0]-int(0.5*ears.shape[1]*sin(radians(rotation)))
+
     if rot >= 0:
         loc_y = p1[1]-ears.shape[1]
     else:
