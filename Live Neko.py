@@ -4,6 +4,8 @@ import dlib
 from toolkit.transformation import rotate_image, paste_image
 from toolkit.measurement import get_rotation
 from math import sin, radians
+from functools import reduce
+
 ESC_KEY = 27
 
 video_capture = cv2.VideoCapture(0)
@@ -67,16 +69,32 @@ while True:
         # frame = draw_landmark_number(frame, landmark)
 
         ears = ears_orig.copy()
-        resized = cv2.resize(ears, determine_ears_size(landmark),
-                             interpolation=cv2.INTER_NEAREST)
 
-        rot = get_rotation(frame)
-        print("rotation:", rot)
-        ears = rotate_image(resized, rot)
 
-        cv2.imshow('Video', paste_image(frame, ears, determine_ears_location(landmark, ears, rot)))
+        result = []
+        for face in faces:
+            # Extract Landmarks
+            landmark = predictor(frame, face)
+
+            # Resize
+            resized_ears = cv2.resize(ears, determine_ears_size(landmark),
+                                      interpolation=cv2.INTER_NEAREST)
+
+            # Get angle of rotation
+            rot = get_rotation(frame, face)
+
+            # Rotate
+            modified_ears = rotate_image(resized_ears, rot)
+
+            # Determine ears location
+            loc = determine_ears_location(landmark, modified_ears, rot)
+
+            # Delay composing two images
+            result.append((modified_ears, loc))
+        
+                            # Composing images
+        cv2.imshow('Video', reduce(lambda acc, cur: paste_image(acc, cur[0], cur[1]), result, frame))
     except Exception as e:
-        print("ERROR")
         cv2.imshow('Video', frame)
 
     k = cv2.waitKey(1)
